@@ -81,16 +81,16 @@ header {
 
 #hero-text {
     height: 400px;
-    width: 600px;
+    width: 570px;
     position: absolute;
-    right: 5%;
+    right: 0;
     top: 25%;
     color: #082340;
 
 }
 
 #hero-text h1 {
-    font-size: 80px;
+    font-size: 70px;
     line-height: 60px;
     margin-bottom: 35px;
 }
@@ -100,7 +100,7 @@ header {
 }
 
 #hero-text p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -113,7 +113,7 @@ header {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin: 40px auto;
+    margin: 25px auto;
 }
 
 #hero-btn a {
