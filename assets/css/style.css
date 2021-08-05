@@ -25,3 +25,29 @@ a {
     letter-spacing: 2px;
     text-decoration: none;
 }
+
+/* logo */
+#logo {
+    height: 130px;
+    width: 130px;
+}
+
+/* navigation menu */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu li {
+    list-style: none;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
