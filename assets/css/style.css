@@ -28,22 +28,29 @@ a {
 
 /* logo */
 #logo {
-    height: 130px;
-    width: 130px;
+    height: 200px;
+    width: 200px;
+    margin-left: 65%;
+    margin-top: 40px;
 }
 
 /* navigation menu */
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 148px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
 }
 
 #menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-right: 50px;
 }
 
 #menu li {
@@ -52,9 +59,13 @@ header {
     text-transform: uppercase;
 }
 
+#menu a {
+    color: #082340;
+    font-weight: bold;
+}
+
 /* hero */
 #hero-section {
-    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
