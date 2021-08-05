@@ -15,7 +15,6 @@ h1, h2 {
 
 p {
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
     letter-spacing: 1px;
 }
 
@@ -68,5 +67,28 @@ header {
     background:url(../images/hero-img.jpg) no-repeat center center/cover;;
 }
 
+#hero-text {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    color: #082340;
 
+}
+
+#hero-text h1 {
+    font-size: 80px;
+    line-height: 60px;
+    margin-bottom: 35px;
+}
+
+#hero-text span {
+    font-size: 40px;
+}
+
+#hero-text p {
+    font-size: 20px;
+    font-weight: bold;
+}
 
