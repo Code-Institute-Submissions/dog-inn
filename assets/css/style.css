@@ -76,6 +76,7 @@ header {
     overflow: hidden;
     position: relative;
     background-color: #F78F4A;
+    overflow-y: scroll;
 }
 
 #hero-img {
