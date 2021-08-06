@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+/* logo */
+#logo {
+    height: 200px;
+    width: 200px;
+    margin-left: 65%;
+    margin-top: 40px;
+}
+
+/* navigation menu */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 148px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#menu li {
+    list-style: none;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+#menu a {
+    color: #082340;
+    font-weight: bold;
+}
+
+/* hero */
+#hero-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #F78F4A;
+}
+
+#hero-img {
+    left: 0;
+    height: 100vh;
+    width: 55vw;
+    background: url(../images/hero-img.jpg) no-repeat center center/cover;
+}
+
+#hero-text {
+    height: 400px;
+    width: 570px;
+    position: absolute;
+    left: 60%;
+    top: 25%;
+    color: #082340;
+
+}
+
+#hero-text h1 {
+    font-size: 70px;
+    line-height: 60px;
+    margin-bottom: 35px;
+}
+
+#hero-text span {
+    font-size: 40px;
+}
+
+#hero-text p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#hero-btn {
+    width: 215px;
+    height: 50px;
+    background: #082340;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 25px auto;
+}
+
+#hero-btn a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
