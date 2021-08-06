@@ -146,6 +146,7 @@ header {
 #about-img {
     width: 50vw;
     height: 470px;
+    z-index: 100;
 }
 
 #about-img img {
@@ -190,8 +191,9 @@ header {
     width: 200px;
     height: 200px;
     position: absolute;
-    top: 6%;
-    left: 50%;
+    top: 10%;
+    left: 45%;
+    z-index: 101;
 } 
 
 
@@ -205,12 +207,23 @@ header {
     height: 150px;
     position: absolute;
     top: 75%;
-    left: 40%;
+    left: 82%;
     transform: rotate(48deg);
+    z-index: 101;
 } 
 
 
 #paw-icon img {
     width: 100%;
     height: 100%;
+}
+
+#yellow-box {
+    height: 100vh;
+    width: 30vw;
+    right: 0;
+    background-color: #E9A339;
+    position: absolute;
+    top: 0;
+    z-index: 1;
 }
