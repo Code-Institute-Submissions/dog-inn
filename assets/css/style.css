@@ -229,3 +229,24 @@ header {
     top: 0;
     z-index: 1;
 }
+
+/* services section */
+#services-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #082340;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+#services-section h2 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#services-section h1 {
+    font-size: 50px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
