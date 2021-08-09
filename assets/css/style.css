@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family=Roboto:wght@400;500&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,11 +16,13 @@ h2 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: #082340;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
+    color: #082340;
 }
 
 a {
@@ -70,6 +76,7 @@ header {
     overflow: hidden;
     position: relative;
     background-color: #F78F4A;
+    overflow-y: scroll;
 }
 
 #hero-img {
@@ -84,9 +91,7 @@ header {
     width: 570px;
     position: absolute;
     left: 60%;
-    top: 25%;
-    color: #082340;
-
+    top: 25%;    
 }
 
 #hero-text h1 {
@@ -119,4 +124,108 @@ header {
 #hero-btn a {
     color: #ffffff;
     text-transform: uppercase;
+}
+
+/* about section */
+#about-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    overflow-y: scroll;
+}
+
+#about-container {
+    height: 100vh;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#about-img {
+    width: 50vw;
+    height: 470px;
+    z-index: 100;
+}
+
+#about-img img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+#about-text {
+    width: 50vw;
+}
+
+#about-text h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    margin-top: 85px;
+}
+
+#about-text p {
+   padding: 20px;
+}
+
+#about-btn {
+    width: 215px;
+    height: 50px;
+    background: #082340;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 25px auto;
+}
+
+#about-btn a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#love-icon {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    z-index: 101;
+} 
+
+
+#love-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+#paw-icon {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 75%;
+    left: 82%;
+    transform: rotate(48deg);
+    z-index: 101;
+} 
+
+
+#paw-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+#yellow-box {
+    height: 100vh;
+    width: 30vw;
+    right: 0;
+    background-color: #E9A339;
+    position: absolute;
+    top: 0;
+    z-index: 1;
 }
