@@ -92,7 +92,7 @@ header {
     width: 570px;
     position: absolute;
     left: 60%;
-    top: 25%;    
+    top: 25%;
 }
 
 #hero-text h1 {
@@ -149,12 +149,14 @@ header {
     width: 50vw;
     height: 470px;
     z-index: 100;
+    
 }
 
 #about-img img {
     width: 100%;
     height: 100%;
     padding: 20px;
+    
 }
 
 #about-text {
@@ -170,7 +172,7 @@ header {
 }
 
 #about-text p {
-   padding: 20px;
+    padding: 20px;
 }
 
 #about-btn {
@@ -197,7 +199,7 @@ header {
     top: 10%;
     left: 45%;
     z-index: 101;
-} 
+}
 
 
 #love-icon img {
@@ -213,7 +215,7 @@ header {
     left: 82%;
     transform: rotate(48deg);
     z-index: 101;
-} 
+}
 
 
 #paw-icon img {
@@ -258,9 +260,9 @@ header {
 #services-container {
     width: 1150px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-    margin:  5% auto;
+    margin: 5% auto;
 }
 
 .services-box {
@@ -270,7 +272,7 @@ header {
     height: 400px;
     width: 350px;
     z-index: 10;
-
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .services-box img {
