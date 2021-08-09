@@ -295,7 +295,7 @@ header {
     right: 0;
     background-color: #E9A339;
     position: absolute;
-    top: 3%;
+    top: 0;
     z-index: 2;
 }
 
