@@ -292,8 +292,8 @@ header {
 }
 
 #yellow-bg-box {
-    height: 800px;
-    width: 60vw;
+    height: 400px;
+    width: 70vw;
     right: 0;
     background-color: #E9A339;
     position: absolute;
