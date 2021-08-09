@@ -19,6 +19,7 @@ h2 {
     color: #082340;
 }
 
+
 p {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
@@ -243,10 +244,43 @@ header {
 #services-section h2 {
     font-size: 40px;
     color: #ffffff;
+    margin-top: 10%;
 }
 
 #services-section h1 {
     font-size: 50px;
     color: #ffffff;
     text-transform: capitalize;
+}
+
+#services-container {
+    width: 1150px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    margin:  5% auto;
+}
+
+.services-box {
+    background-color: #ffffff;
+    border-radius: 36px;
+    padding: 45px;
+    height: 400px;
+    width: 350px;
+}
+
+.services-box img {
+    width: 60px;
+    height: 60px;
+}
+
+.services-box h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.services-box p {
+    font-size: 12px;
+    font-weight: bold;
 }
