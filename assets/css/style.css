@@ -118,13 +118,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
     margin: 25px auto;
 }
 
 #hero-btn a {
     color: #ffffff;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 /* about section */
@@ -183,13 +183,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
     margin: 25px auto;
 }
 
 #about-btn a {
     color: #ffffff;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 #love-icon {
@@ -332,8 +332,7 @@ header {
     border-radius: 25px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    cursor: pointer;
+    justify-content: center;   
     margin: 40px auto;
 }
 
@@ -341,4 +340,92 @@ header {
     color: #082340;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
+}
+
+/* prices section */
+#prices-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    text-align: center;
+    height: 100vh;
+}
+
+#prices-section h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 900;
+    margin-top: 5%;
+}
+
+#prices-container {
+    width: 1150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin: 5% auto;
+}
+
+
+.prices-box {
+    background-color: #082340;
+    color: #ffffff;
+    height: 460px;
+    width: 370px;
+    border-radius: 35px;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.prices-box h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin: 40px 0;
+    letter-spacing: 2px;
+}
+
+.prices-box p {
+    color: #ffffff;
+    line-height: 30px;
+    margin: 60px 0;
+    text-transform: capitalize;
+}
+
+.prices-box h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+
+span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+#prices-btn {
+    width: 500px;
+    height: 50px;
+    background-color: #082340;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto; 
+}
+
+#prices-btn a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
