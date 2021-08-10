@@ -19,6 +19,7 @@ h2 {
     color: #082340;
 }
 
+
 p {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
@@ -48,7 +49,7 @@ header {
     height: 148px;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 1000;
     width: 100%;
 }
 
@@ -91,7 +92,7 @@ header {
     width: 570px;
     position: absolute;
     left: 60%;
-    top: 25%;    
+    top: 25%;
 }
 
 #hero-text h1 {
@@ -148,12 +149,14 @@ header {
     width: 50vw;
     height: 470px;
     z-index: 100;
+    
 }
 
 #about-img img {
     width: 100%;
     height: 100%;
     padding: 20px;
+    
 }
 
 #about-text {
@@ -169,7 +172,7 @@ header {
 }
 
 #about-text p {
-   padding: 20px;
+    padding: 20px;
 }
 
 #about-btn {
@@ -196,7 +199,7 @@ header {
     top: 10%;
     left: 45%;
     z-index: 101;
-} 
+}
 
 
 #love-icon img {
@@ -212,7 +215,7 @@ header {
     left: 82%;
     transform: rotate(48deg);
     z-index: 101;
-} 
+}
 
 
 #paw-icon img {
@@ -228,4 +231,114 @@ header {
     position: absolute;
     top: 0;
     z-index: 1;
+}
+
+/* services section */
+#services-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #082340;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+#services-section h2 {
+    font-size: 25px;
+    margin-top: 5%;
+    position: relative;
+    z-index: 900;
+}
+
+#services-section h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 900;
+}
+
+#services-container {
+    width: 1150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin: 5% auto;
+}
+
+.services-box {
+    background-color: #ffffff;
+    border-radius: 36px;
+    padding: 45px;
+    height: 400px;
+    width: 350px;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.services-box img {
+    width: 60px;
+    height: 60px;
+}
+
+.services-box h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.services-box p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#yellow-bg-box {
+    height: 400px;
+    width: 70vw;
+    right: 0;
+    background-color: #E9A339;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+#orange-bg-box {
+    height: 1000px;
+    width: 50vw;
+    left: 0;
+    background-color: #F78F4A;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+#services-img {
+    position: absolute;
+    z-index: 300;
+    right: 10%;
+    top: 7%;
+    width: 300px;
+    height: 250px;
+}
+
+#services-img img {
+    width: 100%;
+    height: 100%;
+}
+
+#services-btn {
+    width: 215px;
+    height: 50px;
+    background: #E9A339;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 40px auto;
+}
+
+#services-btn a {
+    color: #082340;
+    text-transform: uppercase;
+    font-weight: bold;
 }
