@@ -340,4 +340,5 @@ header {
 #services-btn a {
     color: #082340;
     text-transform: uppercase;
+    font-weight: bold;
 }
