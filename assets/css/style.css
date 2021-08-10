@@ -420,6 +420,10 @@ span {
     justify-content: center;
     cursor: pointer;
     margin: 40px auto;
+    
+}
+
+#prices-btn a {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
