@@ -118,13 +118,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
     margin: 25px auto;
 }
 
 #hero-btn a {
     color: #ffffff;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 /* about section */
@@ -183,13 +183,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
     margin: 25px auto;
 }
 
 #about-btn a {
     color: #ffffff;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 #love-icon {
@@ -332,8 +332,7 @@ header {
     border-radius: 25px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    cursor: pointer;
+    justify-content: center;   
     margin: 40px auto;
 }
 
@@ -341,6 +340,7 @@ header {
     color: #082340;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* prices section */
@@ -418,9 +418,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-    margin: 40px auto;
-    
+    margin: 40px auto; 
 }
 
 #prices-btn a {
@@ -429,4 +427,5 @@ span {
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
+    cursor: pointer;
 }
