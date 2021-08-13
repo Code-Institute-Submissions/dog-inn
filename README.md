@@ -15,3 +15,10 @@ The site will be targeted mainly toward dog owners who have no one to entrust to
      - The navigation clearly tells the user the name of the hotel and makes easy to find all information on website.
 
 ![Navigation Bar](https://github.com/Izabela88/dog-inn/blob/development/media/navigation.png)
+
+
+- __The Hero Section__
+
+    - This section includes an eye-catching image of the puppy on the left side and buissness description on the right side.
+    - The description on the right side provides key information about the hotel and what sets it apart from other similar hotels.
+    - Below the description is located button leading to the About section.
