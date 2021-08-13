@@ -14,4 +14,4 @@ The site will be targeted mainly toward dog owners who have no one to entrust to
      - The other navigation links are in right corner: Home, About, Services, Prices, Gallery, Contact which link to the sections of the same page.
      - The navigation clearly tells the user the name of the hotel and makes easy to find all information on website.
 
-
+![Navigation Bar](https://github.com/Izabela88/dog-inn/blob/development/media/navigation.png)
