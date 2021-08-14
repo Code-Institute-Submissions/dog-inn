@@ -40,3 +40,4 @@ The site will be targeted mainly toward dog owners who have no one to entrust to
     - Each service is briefly explained.
     - Below the description is located button leading to the Prices section.
 
+![Services Section](https://github.com/Izabela88/dog-inn/blob/development/media/services.png)
