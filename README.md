@@ -48,3 +48,5 @@ The site will be targeted mainly toward dog owners who have no one to entrust to
     - The prices are divided into three categories and clearly described.
     - Below the description is located button which should be pressed to download the hotel regulations.
     - After pressing the button, the document is automatically downloaded in the pdf format.
+
+![Prices Section](https://github.com/Izabela88/dog-inn/blob/development/media/prices.png)
