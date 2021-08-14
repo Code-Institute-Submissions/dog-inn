@@ -33,3 +33,10 @@ The site will be targeted mainly toward dog owners who have no one to entrust to
     - Below the description is located button leading to the Services section.
 
 ![About Section](https://github.com/Izabela88/dog-inn/blob/development/media/about.png)
+
+- __The Services Section__
+
+    - In the Services section are all informations about the services offered by the hotel.
+    - Each service is briefly explained.
+    - Below the description is located button leading to the Prices section.
+
