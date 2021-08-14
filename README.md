@@ -41,3 +41,10 @@ The site will be targeted mainly toward dog owners who have no one to entrust to
     - Below the description is located button leading to the Prices section.
 
 ![Services Section](https://github.com/Izabela88/dog-inn/blob/development/media/services.png)
+
+- __The Prices section__
+
+    - The Prices section is to inform the user about the prices of the offered services.
+    - The prices are divided into three categories and clearly described.
+    - Below the description is located button which should be pressed to download the hotel regulations.
+    - After pressing the button, the document is automatically downloaded in the pdf format.
