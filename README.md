@@ -50,3 +50,9 @@ The site will be targeted mainly toward dog owners who have no one to entrust to
     - After pressing the button, the document is automatically downloaded in the pdf format.
 
 ![Prices Section](https://github.com/Izabela88/dog-inn/blob/development/media/prices.png)
+
+- __Gallery__
+
+    - The Gallery contains photos of some dogs that used the services of the hotel.
+    - In the gallery users also find a short movie from the walk of one of the pupils.
+    - Thanks to the gallery, users have the opportunity to see the weekday activities of the hotel and see that the dogs are left there under the best care.
