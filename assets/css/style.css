@@ -19,6 +19,11 @@ h2 {
     color: #082340;
 }
 
+h6 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
 
 p {
     font-family: 'Poppins', sans-serif;
@@ -474,7 +479,6 @@ span {
 
   /* footer */
   #footer-container {
-      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -534,3 +538,49 @@ span {
       font-size: 25px;
       margin-right: 10px;
   }
+
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 360px;
+    width: 400px;
+}
+
+.subscribe-form h6 {
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.subscribe-form p {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.text-input {
+    background: transparent;
+    color: #ffffff;
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ffffff;
+}
+
+.text-input:hover {
+    border-color: #F78F4A;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.subscribe-btn {
+    height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
