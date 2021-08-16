@@ -95,6 +95,13 @@ a {
     font-weight: bold;
 }
 
+.section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    overflow-y: scroll;
+}
+
 /* logo */
 #logo {
     height: 200px;
@@ -135,11 +142,7 @@ header {
 
 /* hero */
 #hero-section {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    background-color: #F78F4A;
-    overflow-y: scroll;
+    background-color: #F78F4A;   
 }
 
 #hero-img {
@@ -175,11 +178,7 @@ header {
 
 /* about section */
 #about-section {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
     background-color: #ffffff;
-    overflow-y: scroll;
 }
 
 #about-container {
@@ -259,11 +258,7 @@ header {
 
 /* services section */
 #services-section {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
     background-color: #082340;
-    overflow-y: scroll;
     text-align: center;
 }
 
@@ -349,11 +344,7 @@ header {
 
 /* prices section */
 #prices-section {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
     background-color: #ffffff;
-    overflow-y: scroll;
     text-align: center;
     height: 100vh;
 }
@@ -445,11 +436,7 @@ span {
 
 /* gallery section */
 #gallery-section {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
     background-color: #ffffff;
-    overflow-y: scroll;
     text-align: center;
 }
 
