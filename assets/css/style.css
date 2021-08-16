@@ -11,17 +11,11 @@ html {
     border: none;
 }
 
-h1,
-h2 {
+h1, h2, h3, h6 {
     font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #082340;
-}
-
-h6 {
-    font-family: 'Roboto', sans-serif;
-
+    text-transform: capitalize;
 }
 
 
@@ -105,6 +99,7 @@ header {
     font-size: 70px;
     line-height: 60px;
     margin-bottom: 35px;
+    text-transform: uppercase;
 }
 
 #hero-text span {
@@ -173,7 +168,6 @@ header {
     font-size: 50px;
     text-align: center;
     margin-bottom: 10px;
-    text-transform: capitalize;
     margin-top: 85px;
 }
 
@@ -258,7 +252,6 @@ header {
 
 #services-section h1 {
     font-size: 50px;
-    text-transform: capitalize;
     position: relative;
     z-index: 900;
 }
@@ -287,7 +280,6 @@ header {
 }
 
 .services-box h3 {
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin: 15px 0;
 }
@@ -362,7 +354,6 @@ header {
 
 #prices-section h1 {
     font-size: 50px;
-    text-transform: capitalize;
     position: relative;
     z-index: 900;
     margin-top: 5%;
@@ -388,10 +379,10 @@ header {
 }
 
 .prices-box h3 {
-    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     margin: 40px 0;
     letter-spacing: 2px;
+    color: #ffffff;
 }
 
 .prices-box p {
@@ -407,6 +398,7 @@ header {
     letter-spacing: 2px;
     margin-top: -40px;
     margin-bottom: 50px;
+    color: #ffffff;
 }
 
 span {
@@ -449,7 +441,6 @@ span {
 
 #gallery-section h1 {
     font-size: 50px;
-    text-transform: capitalize;
     position: relative;
     z-index: 900;
     margin: 7% 0;
@@ -516,10 +507,9 @@ span {
 
   .footer-box h6 {
       font-size: 25px;
-      font-family: 'Roboto', sans-serif;
-      text-transform: capitalize;
       letter-spacing: 2px;
       margin-bottom: 15px;
+      color: #ffffff;
   }
 
   .footer-box li {
@@ -550,9 +540,9 @@ span {
 
 .subscribe-form h6 {
     font-size: 25px;
-    text-transform: capitalize;
     letter-spacing: 2px;
     margin-bottom: 15px;
+    color: #ffffff;
 }
 
 .subscribe-form p {
