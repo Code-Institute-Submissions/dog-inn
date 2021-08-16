@@ -12,18 +12,14 @@ html {
 }
 
 h1,
-h2 {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #082340;
-}
-
+h2,
+h3,
 h6 {
     font-family: 'Roboto', sans-serif;
-
+    letter-spacing: 2px;
+    color: #082340;
+    text-transform: capitalize;
 }
-
 
 p {
     font-family: 'Poppins', sans-serif;
@@ -33,11 +29,71 @@ p {
 
 a {
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     letter-spacing: 2px;
     text-decoration: none;
 }
 
+.btn-blue {
+    width: 215px;
+    height: 50px;
+    background-color: #082340;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition-duration: 0.4s;
+}
+
+.btn-blue a {
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: #2e7ccf;
+}
+
+.btn-blue a:hover {
+    color: #1a1313;
+    font-weight: bold;
+}
+
+.btn-orange {
+    width: 215px;
+    height: 50px;
+    background-color: #F78F4A;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition-duration: 0.4s;
+}
+
+.btn-orange a {
+    color: #082340;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.3s
+}
+
+.btn-orange:hover {
+    background-color: #f66d12;
+}
+
+
+.btn-orange a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
 
 /* logo */
 #logo {
@@ -105,6 +161,7 @@ header {
     font-size: 70px;
     line-height: 60px;
     margin-bottom: 35px;
+    text-transform: uppercase;
 }
 
 #hero-text span {
@@ -114,23 +171,6 @@ header {
 #hero-text p {
     font-size: 18px;
     font-weight: bold;
-}
-
-#hero-btn {
-    width: 215px;
-    height: 50px;
-    background: #082340;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 25px auto;
-}
-
-#hero-btn a {
-    color: #ffffff;
-    text-transform: uppercase;
-    cursor: pointer;
 }
 
 /* about section */
@@ -155,14 +195,12 @@ header {
     width: 50vw;
     height: 470px;
     z-index: 100;
-    
 }
 
 #about-img img {
     width: 100%;
     height: 100%;
     padding: 20px;
-    
 }
 
 #about-text {
@@ -173,29 +211,11 @@ header {
     font-size: 50px;
     text-align: center;
     margin-bottom: 10px;
-    text-transform: capitalize;
     margin-top: 85px;
 }
 
 #about-text p {
     padding: 20px;
-}
-
-#about-btn {
-    width: 215px;
-    height: 50px;
-    background: #082340;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 25px auto;
-}
-
-#about-btn a {
-    color: #ffffff;
-    text-transform: uppercase;
-    cursor: pointer;
 }
 
 #love-icon {
@@ -206,7 +226,6 @@ header {
     left: 45%;
     z-index: 101;
 }
-
 
 #love-icon img {
     width: 100%;
@@ -222,7 +241,6 @@ header {
     transform: rotate(48deg);
     z-index: 101;
 }
-
 
 #paw-icon img {
     width: 100%;
@@ -258,7 +276,6 @@ header {
 
 #services-section h1 {
     font-size: 50px;
-    text-transform: capitalize;
     position: relative;
     z-index: 900;
 }
@@ -287,7 +304,6 @@ header {
 }
 
 .services-box h3 {
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin: 15px 0;
 }
@@ -331,24 +347,6 @@ header {
     height: 100%;
 }
 
-#services-btn {
-    width: 215px;
-    height: 50px;
-    background: #E9A339;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-    margin: 40px auto;
-}
-
-#services-btn a {
-    color: #082340;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-}
-
 /* prices section */
 #prices-section {
     width: 100%;
@@ -362,7 +360,6 @@ header {
 
 #prices-section h1 {
     font-size: 50px;
-    text-transform: capitalize;
     position: relative;
     z-index: 900;
     margin-top: 5%;
@@ -376,7 +373,6 @@ header {
     margin: 5% auto;
 }
 
-
 .prices-box {
     background-color: #082340;
     color: #ffffff;
@@ -388,10 +384,10 @@ header {
 }
 
 .prices-box h3 {
-    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     margin: 40px 0;
     letter-spacing: 2px;
+    color: #ffffff;
 }
 
 .prices-box p {
@@ -407,6 +403,7 @@ header {
     letter-spacing: 2px;
     margin-top: -40px;
     margin-bottom: 50px;
+    color: #ffffff;
 }
 
 span {
@@ -424,16 +421,26 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px auto; 
+    margin: 40px auto;
+    transition-duration: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 #prices-btn a {
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#prices-btn:hover {
+    background-color: #2e7ccf;
+}
+
+#prices-btn a:hover {
+    color: #1a1313;
+    font-weight: bold;
 }
 
 /* gallery section */
@@ -444,19 +451,16 @@ span {
     background-color: #ffffff;
     overflow-y: scroll;
     text-align: center;
-    
 }
 
 #gallery-section h1 {
     font-size: 50px;
-    text-transform: capitalize;
     position: relative;
     z-index: 900;
     margin: 7% 0;
-
 }
 
-.gallery-container { 
+.gallery-container {
     display: grid;
     grid-template-rows: repeat(6, auto);
     grid-template-columns: repeat(3, 400px);
@@ -465,81 +469,79 @@ span {
     justify-items: center;
     margin: 0 auto;
     width: 1300px;
-    }
+}
 
-  .gallery-container img {
+.gallery-container img {
     box-shadow: rgb(0 0 0 / 15%) 0px 15px 25px, rgb(0 0 0 / 5%) 0px 5px 10px;
     max-width: 100%;
-  }
+}
 
-  video {
+video {
     box-shadow: rgb(0 0 0 / 15%) 0px 15px 25px, rgb(0 0 0 / 5%) 0px 5px 10px;
     margin-bottom: 2%;
-  }
+}
 
-  /* footer */
-  #footer-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 600px;
-      background-color: #082340;
-      color: white;
-  }
+/* footer */
+#footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #082340;
+    color: white;
+}
 
-  .footer-box {
-      width: 330px;
-      height: 360px;
-      text-align: left;
-      padding: 30px;
-  }
+.footer-box {
+    width: 330px;
+    height: 360px;
+    text-align: left;
+    padding: 30px;
+}
 
-  .footer-box h2 {
-      color: #ffffff;
-      text-transform: capitalize;
-      font-size: 35px;
-      margin-bottom: 35px;
-      margin-top: 60px;
-  }
+.footer-box h2 {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 35px;
+    margin-bottom: 35px;
+    margin-top: 60px;
+}
 
-  .social-icons {
-      text-align: center;
-      margin-right: 50px;
-  }
+.social-icons {
+    text-align: center;
+    margin-right: 50px;
+}
 
-  .social-icons ul {
+.social-icons ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-  }
-  
+}
 
-  .footer-box h6 {
-      font-size: 25px;
-      font-family: 'Roboto', sans-serif;
-      text-transform: capitalize;
-      letter-spacing: 2px;
-      margin-bottom: 15px;
-  }
+.footer-box h6 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
 
-  .footer-box li {
-      list-style: none;
-      font-family: 'Poppins', sans-serif;
-      line-height: 35px;
-      font-size: 18px;
-      letter-spacing: 1px;
-  }
+.footer-box li {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    line-height: 35px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
 
-  .footer-box a {
-      color: #ffffff;
-  }
+.footer-box a {
+    color: #ffffff;
+}
 
-  .footer-box i {
-      font-size: 25px;
-      margin-right: 10px;
-  }
+.footer-box i {
+    font-size: 25px;
+    margin-right: 10px;
+}
 
-  .subscribe-form {
+.subscribe-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -550,9 +552,9 @@ span {
 
 .subscribe-form h6 {
     font-size: 25px;
-    text-transform: capitalize;
     letter-spacing: 2px;
     margin-bottom: 15px;
+    color: #ffffff;
 }
 
 .subscribe-form p {
@@ -579,8 +581,18 @@ label {
 }
 
 .subscribe-btn {
-    height: 30px;
+    height: 40px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition-duration: 0.3s;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
 }
 
+.subscribe-btn:hover {
+    background-color: #F78F4A;
+    color: #ffffff;
+}
