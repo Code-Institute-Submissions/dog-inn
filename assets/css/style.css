@@ -27,11 +27,73 @@ p {
 
 a {
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     letter-spacing: 2px;
     text-decoration: none;
 }
 
+.btn-blue {
+    width: 215px;
+    height: 50px;
+    background-color: #082340;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition-duration: 0.4s;
+}
+
+.btn-blue a {
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: 0.3s;
+
+}
+
+.btn-blue:hover {
+    background-color: #2e7ccf;
+}
+
+.btn-blue a:hover {
+    color: #1a1313;
+    font-weight: bold;
+}
+
+
+.btn-orange {
+    width: 215px;
+    height: 50px;
+    background-color: #F78F4A;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    margin: 40px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition-duration: 0.4s;
+}
+
+.btn-orange a {
+    color: #082340;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.3s
+}
+
+.btn-orange:hover {
+    background-color: #f66d12;
+}
+
+
+.btn-orange a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
 
 /* logo */
 #logo {
@@ -111,22 +173,6 @@ header {
     font-weight: bold;
 }
 
-#hero-btn {
-    width: 215px;
-    height: 50px;
-    background: #082340;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 25px auto;
-}
-
-#hero-btn a {
-    color: #ffffff;
-    text-transform: uppercase;
-    cursor: pointer;
-}
 
 /* about section */
 #about-section {
@@ -175,22 +221,7 @@ header {
     padding: 20px;
 }
 
-#about-btn {
-    width: 215px;
-    height: 50px;
-    background: #082340;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 25px auto;
-}
 
-#about-btn a {
-    color: #ffffff;
-    text-transform: uppercase;
-    cursor: pointer;
-}
 
 #love-icon {
     width: 200px;
@@ -323,23 +354,6 @@ header {
     height: 100%;
 }
 
-#services-btn {
-    width: 215px;
-    height: 50px;
-    background: #E9A339;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-    margin: 40px auto;
-}
-
-#services-btn a {
-    color: #082340;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-}
 
 /* prices section */
 #prices-section {
@@ -416,16 +430,27 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px auto; 
+    margin: 40px auto;
+    transition-duration: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 #prices-btn a {
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+
+#prices-btn:hover {
+    background-color: #2e7ccf;
+}
+
+#prices-btn a:hover {
+    color: #1a1313;
+    font-weight: bold;
 }
 
 /* gallery section */
@@ -569,8 +594,19 @@ label {
 }
 
 .subscribe-btn {
-    height: 30px;
+    height: 40px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition-duration: 0.3s;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+.subscribe-btn:hover {
+    background-color: #F78F4A;
+    color: #ffffff;
 }
 
