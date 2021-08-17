@@ -75,6 +75,7 @@ a {
     margin: 40px auto;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     transition-duration: 0.4s;
+    margin-bottom: 110px;
 }
 
 .btn-orange a {
@@ -507,6 +508,16 @@ video {
     align-items: center;
 }
 
+.social-icons i {
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.social-icons i:hover {
+    transform: scale(1.5);
+    color: #E9A339;
+}
+
 .footer-box h6 {
     font-size: 25px;
     letter-spacing: 2px;
@@ -524,6 +535,11 @@ video {
 
 .footer-box a {
     color: #ffffff;
+    transition-duration: .2s;
+}
+
+.footer-box a:hover {
+    color: #E9A339;
 }
 
 .footer-box i {
