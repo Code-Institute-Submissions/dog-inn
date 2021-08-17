@@ -247,6 +247,8 @@ header {
     width: 1150px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-self: center;
+    justify-self: center;
     grid-gap: 40px;
     margin: 5% auto;
 }
@@ -256,7 +258,6 @@ header {
     border-radius: 36px;
     padding: 45px;
     height: 400px;
-    width: 350px;
     z-index: 10;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
@@ -326,7 +327,6 @@ header {
     background-color: #082340;
     color: #ffffff;
     height: 460px;
-    width: 370px;
     border-radius: 35px;
     padding: 12px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
@@ -566,4 +566,142 @@ label {
 .subscribe-btn:hover {
     background-color: #F78F4A;
     color: #ffffff;
+}
+
+/* media queries */
+@media screen and (max-width:1200px) {
+    #hero-text {
+        width: 400px;
+    }
+
+    #hero-text p {
+        font-size: 16px;
+    }
+
+    #logo {
+        height: 150px;
+        width: 150px;
+    }
+
+    #about-container {
+        width: 1200px;
+    }
+
+    #about-img {
+        width: 45vw;
+        height: 370px;
+    }
+
+    #about-text h1 {
+        font-size: 40px;
+    }
+
+    #about-text p {
+        font-size: 14px;
+    }
+
+    #love-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    #services-section h2 {
+    margin-top: 10%;
+    }
+
+    #services-section h1 {
+        font-size: 45px;
+    }
+
+    #services-container {
+        width: 1000px;
+        grid-gap: 10px;
+    }
+
+    .services-box {
+        width: 100%;
+    }
+
+    #prices-section h1 {
+    margin-top: 10%;
+    font-size: 45px;
+    }
+
+    #prices-container {
+        grid-gap: 10px;
+        width: 1000px;
+    }
+
+    .prices-box p {
+        font-size: 14px;
+    }
+
+    #prices-img {
+        right: 5%;
+    }
+
+    .gallery-container {
+        grid-gap: 4px;
+        align-items: start;
+        justify-items: center;
+        margin: 0 auto;
+        width: 1200px;
+        position: relative;
+    }
+
+    .gallery-container img {
+        max-width: 90%;
+    }
+
+    #gallery-section h1 {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 45px;
+    }
+
+    #footer-container {
+        width: 1200px;
+        height: 500px;
+    }
+
+    .footer-box {
+        width: 175px;
+        height: 342px;
+        padding: 10px;
+    }
+
+    .footer-box h6 {
+        font-size: 16px;
+    }
+
+    .footer-box h2 {
+        font-size: 20px;
+    }
+
+    .footer-box li {
+        line-height: 29px;
+        font-size: 11px;
+    }
+
+    .subscribe-form {
+        height: 360px;
+        width: 300px;
+    }
+
+    .subscribe-form h6 {
+        font-size: 19px;
+    }
+
+    .subscribe-form p {
+        font-size: 13px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .footer-box i {
+        font-size: 17px;
+    }
+
 }
