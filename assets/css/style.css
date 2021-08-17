@@ -35,65 +35,25 @@ a {
     text-decoration: none;
 }
 
-.btn-blue {
+.btn {
     width: 215px;
     height: 50px;
-    background-color: #082340;
+    background: transparent;
     border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 25px auto;
+    margin: 60px auto;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-    transition-duration: 0.4s;
 }
 
-.btn-blue a {
-    color: #ffffff;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-weight: bold;
-    transition-duration: 0.3s;
-}
+.btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;}
 
-.btn-blue:hover {
-    background-color: #2e7ccf;
-}
-
-.btn-blue a:hover {
-    color: #1a1313;
-    font-weight: bold;
-}
-
-.btn-orange {
-    width: 215px;
-    height: 50px;
-    background-color: #F78F4A;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 40px auto;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-    transition-duration: 0.4s;
-    margin-bottom: 110px;
-}
-
-.btn-orange a {
+.btn a {
     color: #082340;
     text-transform: uppercase;
-    font-weight: bold;
     cursor: pointer;
-    transition-duration: 0.3s
-}
-
-.btn-orange:hover {
-    background-color: #f66d12;
-}
-
-
-.btn-orange a:hover {
-    color: #ffffff;
     font-weight: bold;
 }
 
@@ -103,7 +63,6 @@ a {
     position: relative;
     overflow-y: scroll;
 }
-
 
 /* logo */
 #logo {
@@ -267,7 +226,7 @@ header {
 
 /* services section */
 #services-section {
-    background-color: #082340;
+    background-color: #F78F4A;
     text-align: center;
 }
 
@@ -327,11 +286,11 @@ header {
     z-index: 2;
 }
 
-#orange-bg-box {
+#blue-bg-box {
     height: 1000px;
     width: 50vw;
     left: 0;
-    background-color: #F78F4A;
+    background-color: #082340;
     position: absolute;
     top: 0;
     z-index: 1;
@@ -404,31 +363,25 @@ span {
 #prices-btn {
     width: 500px;
     height: 50px;
-    background-color: #082340;
+    background: transparent;
     border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 40px auto;
-    transition-duration: 0.4s;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
+#prices-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
 #prices-btn a {
-    color: #ffffff;
+    color: #082340;
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
     transition-duration: 0.3s;
-}
-
-#prices-btn:hover {
-    background-color: #2e7ccf;
-}
-
-#prices-btn a:hover {
-    color: #1a1313;
-    font-weight: bold;
 }
 
 
