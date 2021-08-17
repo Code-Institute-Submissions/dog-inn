@@ -11,6 +11,7 @@ html {
     border: none;
 }
 
+/* utility */
 h1,
 h2,
 h3,
@@ -103,6 +104,7 @@ a {
     overflow-y: scroll;
 }
 
+
 /* logo */
 #logo {
     height: 200px;
@@ -134,6 +136,12 @@ header {
     list-style: none;
     margin-left: 30px;
     text-transform: uppercase;
+    transition: all .2s ease-in-out;
+    font-size: 15px;    
+}
+
+#menu li:hover {
+    transform: scale(1.2);
 }
 
 #menu a {
