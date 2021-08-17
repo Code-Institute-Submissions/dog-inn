@@ -296,7 +296,9 @@ header {
     z-index: 1;
 }
 
-
+#services-btn {
+    margin-bottom: 150px;
+}
 
 /* prices section */
 #prices-section {
@@ -351,6 +353,8 @@ header {
     margin-top: -40px;
     margin-bottom: 50px;
     color: #ffffff;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
 span {
