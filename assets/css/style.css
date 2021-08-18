@@ -671,7 +671,7 @@ label {
     }
 
     #footer-container {
-        width: 1000px;
+        width: 100vw;
         height: 500px;
     }
 
@@ -764,6 +764,7 @@ label {
 
     #about-text {
         width: 80vw;
+        text-align: center;
     }
 
     #about-text h1 {
@@ -790,11 +791,11 @@ label {
 
     .gallery-container {
         grid-template-columns: repeat(1, 1fr);
-        width: 700px;
+        width: 90vw;
     }
 
     video {
-        width: 600px;
+        width: 90vw;
         margin-top: 25px;
     }
 
@@ -808,6 +809,18 @@ label {
     }
 
     #paw-icon {
+        display: none;
+    }
+
+    #blue-bg-box {
+        display: none;
+    }
+
+    #yellow-bg-box {
+        display: none;
+    }
+
+    #prices-img {
         display: none;
     }
 }
