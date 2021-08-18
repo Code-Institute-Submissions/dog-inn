@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    <header>
+    <!-- Header -->
+    <header id="header">
         <a href="#hero-section">
             <img src="assets/images/logo.png" id="logo" alt="Hotel logo">
         </a>
@@ -79,7 +80,6 @@
                     of our attention and love. Individual approach to each dog. Implementation of the owner's detailed
                     recommendations.</p>
             </div>
-
             <div class="services-box">
                 <img src="assets/images/icons/home.png" alt="Dog icon">
                 <h3>CARE AT THE OWNER'S HOME</h3>
@@ -223,6 +223,19 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/111b3a0b11.js" crossorigin="anonymous"></script>
+    <!-- Hide menu on scrolling -->
+    <script>
+        let prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        let currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("header").style.top = "0";
+          } else {
+            document.getElementById("header").style.top = "-100px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
 </body>
 
 </html>
