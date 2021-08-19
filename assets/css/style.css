@@ -48,7 +48,8 @@ a {
 }
 
 .btn:hover {
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;}
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
 
 .btn a {
     color: #082340;
@@ -74,6 +75,14 @@ a {
 
 
 /* navigation menu */
+#hamburger-icon {
+    display: none;
+}
+
+.closebtn {
+    display: none;
+}
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -88,25 +97,25 @@ a {
     transition: top 0.3s;
 }
 
-#menu {
+.menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-right: 50px;
 }
 
-#menu li {
+.menu li {
     list-style: none;
     margin-left: 30px;
     text-transform: uppercase;
-    font-size: 15px;    
+    font-size: 15px;
 }
 
-#menu a:hover {
+.menu a:hover {
     color: #ffffff;
 }
 
-#menu a {
+.menu a {
     color: #082340;
     font-weight: bold;
     transition-duration: .3s;
@@ -114,7 +123,7 @@ a {
 
 /* hero */
 #hero-section {
-    background-color: #F78F4A;   
+    background-color: #F78F4A;
 }
 
 #hero-img {
@@ -621,7 +630,7 @@ label {
     }
 
     #services-section h2 {
-    margin-top: 10%;
+        margin-top: 10%;
     }
 
     #services-section h1 {
@@ -638,8 +647,8 @@ label {
     }
 
     #prices-section h1 {
-    margin-top: 10%;
-    font-size: 45px;
+        margin-top: 10%;
+        font-size: 45px;
     }
 
     #prices-container {
@@ -761,6 +770,7 @@ label {
 
     #about-container {
         flex-direction: column-reverse;
+        width: 660px;
     }
 
     #love-icon {
@@ -881,7 +891,86 @@ label {
         height: 100px;
     }
 
-    #menu {
+    .menu {
         margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #header {
+        flex-direction: row;
+        justify-content: center;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    #logo {
+        width: 130px;
+        height: 130px;
+    }
+
+    #hamburger-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        margin-left: 45%;
+        padding: 16px;
+        background-color: rgb(8 35 64 / 75%);
+        color: #ffffff;
+    }
+
+    .sidebar {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #E9A339;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu li {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .closebtn {
+        display: block;
+        position: absolute;
+        top: 10%;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: #082340;
+    }
+
+    #prices-btn {
+        width: 385px;
+    }
+
+    #about-container {
+        height: 100%;
+    }
+
+    #about-img {
+        height: 230px;
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 40px;
     }
 }

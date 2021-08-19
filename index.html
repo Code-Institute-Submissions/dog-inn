@@ -17,16 +17,25 @@
         <a href="#hero-section">
             <img src="assets/images/logo.png" id="logo" alt="Hotel logo">
         </a>
+        <div id="hamburger-icon" onclick="openNav()">
+            <i class="fas fa-bars"></i>
+        </div>
+
         <nav>
-            <ul id="menu">
-                <li><a href="#hero-section">Home</a></li>
-                <li><a href="#about-section">About</a></li>
-                <li><a href="#services-section">Services</a></li>
-                <li><a href="#prices-section">Prices</a></li>
-                <li><a href="#gallery-section">Gallery</a></li>
-                <li><a href="#footer">Contact</a></li>
-            </ul>
+            <div id="mySidebar" class="sidebar">
+                <div class="closebtn" onclick="closeNav()">
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="menu">
+                    <li><a href="#hero-section">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#services-section">Services</a></li>
+                    <li><a href="#prices-section">Prices</a></li>
+                    <li><a href="#gallery-section">Gallery</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
         </nav>
+        </div>
     </header>
     <!-- Hero section -->
     <section id="hero-section" class="section">
@@ -223,19 +232,28 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/111b3a0b11.js" crossorigin="anonymous"></script>
-    <!-- Hide menu on scrolling -->
     <script>
+        // Hide menu on scrolling
         let prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        let currentScrollPos = window.pageYOffset;
-          if (prevScrollpos > currentScrollPos) {
-            document.getElementById("header").style.top = "0";
-          } else {
-            document.getElementById("header").style.top = "-100px";
-          }
-          prevScrollpos = currentScrollPos;
+        window.onscroll = function () {
+            let currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("header").style.top = "0";
+            } else {
+                document.getElementById("header").style.top = "-100px";
+            }
+            prevScrollpos = currentScrollPos;
         }
-        </script>
+
+        // Open and close sidebar for mobile devices
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "90%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+        }
+    </script>
 </body>
 
 </html>
