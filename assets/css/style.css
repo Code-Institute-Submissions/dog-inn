@@ -894,6 +894,10 @@ label {
     .menu {
         margin: 10px auto;
     }
+
+    #about-img {
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -910,14 +914,14 @@ label {
     }
 
     #hamburger-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    margin-left: 60%;
-    padding: 10px;
-    background-color: #E9A339;
-    color: #082340;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        margin-left: 60%;
+        padding: 10px;
+        background-color: #E9A339;
+        color: #082340;
     }
 
     .sidebar {
@@ -975,6 +979,23 @@ label {
 }
 
 @media screen and (max-width: 450px) {
+    .btn a {
+        font-size: 14px;
+    }
+
+    #prices-btn a {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    #hero-img {
+        height: 40vh;
+    }
+
+    #hero-text h1 {
+        line-height: 35px;
+        font-size: 40px;
+    }
 
     #hamburger-icon {
         margin-left: 45%;
