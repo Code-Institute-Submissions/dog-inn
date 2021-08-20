@@ -44,7 +44,7 @@ a {
     align-items: center;
     justify-content: center;
     margin: 60px auto;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;   
 }
 
 .btn:hover {
@@ -56,6 +56,15 @@ a {
     text-transform: uppercase;
     cursor: pointer;
     font-weight: bold;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    transition-duration: 0.1s;
+}
+
+.btn a:hover {
+    color: #42495B;
 }
 
 .section {
@@ -399,7 +408,15 @@ span {
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
-    transition-duration: 0.3s;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    transition-duration: 0.1s;
+}
+
+#prices-btn a:hover {
+color: #707070;
 }
 
 
@@ -928,6 +945,7 @@ label {
         padding: 10px;
         background-color: #E9A339;
         color: #082340;
+        cursor: pointer;
     }
 
     .sidebar {
@@ -964,6 +982,7 @@ label {
         font-size: 36px;
         margin-left: 50px;
         color: #082340;
+        cursor: pointer;
     }
 
     #prices-btn {
