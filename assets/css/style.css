@@ -982,6 +982,10 @@ label {
     h1 {
         font-size: 40px;
     }
+
+    .subscribe-form {
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 450px) {
