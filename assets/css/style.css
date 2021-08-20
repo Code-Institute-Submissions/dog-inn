@@ -48,7 +48,8 @@ a {
 }
 
 .btn:hover {
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;}
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
 
 .btn a {
     color: #082340;
@@ -66,51 +67,63 @@ a {
 
 /* logo */
 #logo {
-    height: 200px;
-    width: 200px;
-    margin-left: 65%;
-    margin-top: 40px;
+    height: 120px;
+    width: 120px;
+    margin-left: 170%;
+    margin-top: 8px;
 }
 
+
 /* navigation menu */
-header {
+#hamburger-icon {
+    display: none;
+}
+
+.closebtn {
+    display: none;
+}
+
+#header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 148px;
+    height: 100px;
     position: fixed;
     top: 0;
     z-index: 1000;
     width: 100%;
+    background-color: #F78F4A;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: top 0.3s;
 }
 
-#menu {
+.menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-right: 50px;
 }
 
-#menu li {
+.menu li {
     list-style: none;
     margin-left: 30px;
     text-transform: uppercase;
-    transition: all .2s ease-in-out;
-    font-size: 15px;    
+    font-size: 15px;
 }
 
-#menu li:hover {
-    transform: scale(1.2);
+.menu a:hover {
+    color: #ffffff;
 }
 
-#menu a {
+.menu a {
     color: #082340;
     font-weight: bold;
+    transition-duration: .3s;
 }
 
 /* hero */
 #hero-section {
-    background-color: #F78F4A;   
+    background-color: #F78F4A;
 }
 
 #hero-img {
@@ -172,6 +185,7 @@ header {
 
 #about-text {
     width: 50vw;
+    z-index: 100;
 }
 
 #about-text h1 {
@@ -247,6 +261,8 @@ header {
     width: 1150px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-self: center;
+    justify-self: center;
     grid-gap: 40px;
     margin: 5% auto;
 }
@@ -256,7 +272,6 @@ header {
     border-radius: 36px;
     padding: 45px;
     height: 400px;
-    width: 350px;
     z-index: 10;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
@@ -311,7 +326,7 @@ header {
     font-size: 50px;
     position: relative;
     z-index: 900;
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 #prices-container {
@@ -319,14 +334,13 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-    margin: 5% auto;
+    margin: 50px auto;
 }
 
 .prices-box {
     background-color: #082340;
     color: #ffffff;
     height: 460px;
-    width: 370px;
     border-radius: 35px;
     padding: 12px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
@@ -419,7 +433,7 @@ span {
 .gallery-container {
     display: grid;
     grid-template-rows: repeat(6, auto);
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 18px;
     align-items: start;
     justify-items: center;
@@ -429,7 +443,7 @@ span {
 
 .gallery-container img {
     box-shadow: rgb(0 0 0 / 15%) 0px 15px 25px, rgb(0 0 0 / 5%) 0px 5px 10px;
-    max-width: 100%;
+    width: 100%;
 }
 
 video {
@@ -438,6 +452,11 @@ video {
 }
 
 /* footer */
+footer {
+    background-color: #082340;
+    position: relative;
+}
+
 #footer-container {
     display: flex;
     justify-content: center;
@@ -445,46 +464,27 @@ video {
     height: 600px;
     background-color: #082340;
     color: white;
+    width: 1300px;
+    margin: 0 auto;
 }
 
 .footer-box {
-    width: 330px;
     height: 360px;
     text-align: left;
-    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .footer-box h2 {
     color: #ffffff;
     text-transform: capitalize;
-    font-size: 35px;
+    font-size: 27px;
     margin-bottom: 35px;
     margin-top: 60px;
 }
 
-.social-icons {
-    text-align: center;
-    margin-right: 50px;
-}
-
-.social-icons ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.social-icons i {
-    font-size: 20px;
-    transition: all .2s ease-in-out;
-}
-
-.social-icons i:hover {
-    transform: scale(1.5);
-    color: #E9A339;
-}
-
 .footer-box h6 {
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 2px;
     margin-bottom: 15px;
     color: #ffffff;
@@ -493,7 +493,7 @@ video {
 .footer-box li {
     list-style: none;
     font-family: 'Poppins', sans-serif;
-    line-height: 35px;
+    line-height: 41px;
     font-size: 18px;
     letter-spacing: 1px;
 }
@@ -508,8 +508,29 @@ video {
 }
 
 .footer-box i {
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 10px;
+}
+
+.social-icons {
+    text-align: center;
+    margin-right: 50px;
+    width: 190px;
+}
+
+.social-icons ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-icons i {
+    transition: all .2s ease-in-out;
+}
+
+.social-icons i:hover {
+    transform: scale(1.5);
+    color: #E9A339;
 }
 
 .subscribe-form {
@@ -518,11 +539,13 @@ video {
     justify-content: center;
     text-align: center;
     height: 360px;
-    width: 400px;
+    width: 300px;
+    margin-left: 25px;
+    margin-right: 5px;
 }
 
 .subscribe-form h6 {
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 2px;
     margin-bottom: 15px;
     color: #ffffff;
@@ -566,4 +589,464 @@ label {
 .subscribe-btn:hover {
     background-color: #F78F4A;
     color: #ffffff;
+}
+
+/* media queries */
+@media screen and (max-width:1200px) {
+    #hero-text {
+        width: 400px;
+    }
+
+    #hero-text p {
+        font-size: 16px;
+    }
+
+    #logo {
+        height: 130px;
+        width: 130px;
+        margin: 0 auto;
+    }
+
+    #about-container {
+        width: 1000px;
+    }
+
+    #about-img {
+        width: 45vw;
+        height: 350px;
+    }
+
+    #about-text h1 {
+        font-size: 40px;
+    }
+
+    #about-text p {
+        font-size: 14px;
+    }
+
+    #love-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    #services-section h2 {
+        margin-top: 10%;
+    }
+
+    #services-section h1 {
+        font-size: 45px;
+    }
+
+    #services-container {
+        width: 90vw;
+        grid-gap: 10px;
+    }
+
+    .services-box {
+        width: 100%;
+    }
+
+    #prices-section h1 {
+        margin-top: 10%;
+        font-size: 45px;
+    }
+
+    #prices-container {
+        grid-gap: 10px;
+        width: 90vw;
+    }
+
+    .prices-box p {
+        font-size: 14px;
+    }
+
+    #prices-img {
+        right: 5%;
+    }
+
+    .gallery-container {
+        grid-gap: 4px;
+        align-items: start;
+        justify-items: center;
+        margin: 0 auto;
+        width: 80vw;
+        position: relative;
+    }
+
+    #gallery-section h1 {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 45px;
+    }
+
+    video {
+        width: 80vw;
+        margin-top: 25px;
+    }
+
+    #footer-container {
+        width: 100vw;
+        height: 500px;
+    }
+
+    .footer-box {
+        height: 342px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .footer-box h6 {
+        font-size: 16px;
+    }
+
+    .footer-box h2 {
+        font-size: 20px;
+    }
+
+    .footer-box li {
+        line-height: 29px;
+        font-size: 11px;
+    }
+
+    .subscribe-form {
+        height: 360px;
+        width: 260px;
+    }
+
+    .subscribe-form h6 {
+        font-size: 19px;
+    }
+
+    .subscribe-form p {
+        font-size: 13px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .footer-box i {
+        font-size: 17px;
+    }
+
+}
+
+
+@media screen and (max-width: 950px) {
+    #header {
+        justify-content: center;
+    }
+
+    #hero-section {
+        height: 100vh;
+    }
+
+    #hero-img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    #hero-text {
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+        top: 0;
+        text-align: center;
+    }
+
+    #hero-text span {
+        font-size: 25px;
+    }
+
+    #hero-text h1 {
+        line-height: 45px;
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        margin: 30px auto;
+    }
+
+    #about-container {
+        flex-direction: column-reverse;
+        width: 660px;
+    }
+
+    #love-icon {
+        display: none;
+    }
+
+    #about-text {
+        width: 80vw;
+        text-align: center;
+    }
+
+    #about-text h1 {
+        margin-top: 5px;
+    }
+
+    #about-img {
+        width: 52vw;
+    }
+
+    #services-container {
+        grid-template-columns: repeat(2, 1fr);
+        width: 700px;
+    }
+
+    #prices-section {
+        height: auto;
+    }
+
+    #prices-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 400px;
+    }
+
+    .gallery-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #footer-container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .footer-box {
+        text-align: center;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .footer-box h2 {
+        font-size: 35px;
+    }
+
+    .footer-box h6 {
+        font-size: 25px;
+    }
+
+    .footer-box li {
+        font-size: 16px;
+    }
+
+    .social-icons {
+        width: auto;
+    }
+
+    #yellow-box {
+        display: none;
+    }
+
+    #paw-icon {
+        display: none;
+    }
+
+    #blue-bg-box {
+        display: none;
+    }
+
+    #yellow-bg-box {
+        display: none;
+    }
+
+    #prices-img {
+        display: none;
+    }
+
+    .subscribe-form {
+        margin-bottom: 50px;
+    }
+
+    .gallery-img {
+        margin: 0 auto;
+    }
+
+    .gallery-img img {
+        width: 80vw;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    #about-container {
+        width: auto;
+    }
+
+    #services-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 350px;
+    }
+
+    #header {
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+    }
+
+    #logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .menu {
+        margin: 10px auto;
+    }
+
+    #about-img {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #header {
+        flex-direction: row;
+        justify-content: center;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    #logo {
+        width: 130px;
+        height: 130px;
+    }
+
+    #hamburger-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        margin-left: 60%;
+        padding: 10px;
+        background-color: #E9A339;
+        color: #082340;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #E9A339;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu li {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .closebtn {
+        display: block;
+        position: absolute;
+        top: 10%;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: #082340;
+    }
+
+    #prices-btn {
+        width: 385px;
+    }
+
+    #about-container {
+        height: 100%;
+    }
+
+    #about-img {
+        height: 230px;
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .btn a {
+        font-size: 14px;
+    }
+
+    #prices-btn a {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    #hero-img {
+        height: 40vh;
+    }
+
+    #hero-text h1 {
+        line-height: 35px;
+        font-size: 40px;
+    }
+
+    #hamburger-icon {
+        margin-left: 45%;
+    }
+
+    #hero-text {
+        width: 300px;
+    }
+
+    #hero-text p {
+        font-size: 11px;
+    }
+
+    #services-section h1 {
+        font-size: 35px;
+    }
+
+    #services-container {
+        width: 300px;
+    }
+
+    .services-box p {
+        font-size: 10px;
+    }
+
+    #prices-section h1 {
+        font-size: 35px;
+    }
+
+    #prices-container {
+        width: 300px;
+    }
+
+    .prices-box h3 {
+        font-size: 30px;
+    }
+
+    .prices-box p {
+        font-size: 12px;
+    }
+
+    #prices-btn {
+        width: 300px;
+    }
+
+    #gallery-section h1 {
+        font-size: 35px;
+    }
+
+    #logo {
+        width: 100px;
+        height: 100px;
+    }
 }

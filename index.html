@@ -7,25 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Dog Inn is hotel for dogs located in Wolverhampton">
     <meta name="keywords" content="dog inn, hotel for dogs, united kingtom, wolverhampton">
+    <meta name="theme-color" content="#E9A339">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Dog Inn</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <title>DOG INN</title>
 </head>
 
 <body>
-    <header>
+    <!-- Header -->
+    <header id="header">
         <a href="#hero-section">
             <img src="assets/images/logo.png" id="logo" alt="Hotel logo">
         </a>
+        <div id="hamburger-icon" onclick="openNav()">
+            <i class="fas fa-bars"></i>
+        </div>
+
         <nav>
-            <ul id="menu">
-                <li><a href="#hero-section">Home</a></li>
-                <li><a href="#about-section">About</a></li>
-                <li><a href="#services-section">Services</a></li>
-                <li><a href="#prices-section">Prices</a></li>
-                <li><a href="#gallery-section">Gallery</a></li>
-                <li><a href="#footer">Contact</a></li>
-            </ul>
+            <div id="mySidebar" class="sidebar">
+                <div class="closebtn" onclick="closeNav()">
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="menu">
+                    <li><a href="#hero-section">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#services-section">Services</a></li>
+                    <li><a href="#prices-section">Prices</a></li>
+                    <li><a href="#gallery-section">Gallery</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
         </nav>
+        </div>
     </header>
     <!-- Hero section -->
     <section id="hero-section" class="section">
@@ -79,7 +94,6 @@
                     of our attention and love. Individual approach to each dog. Implementation of the owner's detailed
                     recommendations.</p>
             </div>
-
             <div class="services-box">
                 <img src="assets/images/icons/home.png" alt="Dog icon">
                 <h3>CARE AT THE OWNER'S HOME</h3>
@@ -150,21 +164,21 @@
     <section id="gallery-section" class="section">
         <h1>Meet Our Satisfied Little Ones</h1>
         <div class="gallery-container">
-            <img src="assets/images/dog3.jpg" alt="Sample photo">
-            <img src="assets/images/dog13.jpg" alt="Sample photo">
-            <img src="assets/images/dog2.jpg" alt="Sample photo">
-            <img src="assets/images/dog11.jpg" alt="Sample photo">
-            <img src="assets/images/dog10.jpg" alt="Sample photo">
-            <img src="assets/images/dog16.jpg" alt="Sample photo">
-            <img src="assets/images/dog14.jpg" alt="Sample photo">
-            <img src="assets/images/dog7.jpg" alt="Sample photo">
-            <img src="assets/images/dog1.jpg" alt="Sample photo">
+            <img src="assets/images/dog3.jpg" alt="The dog is lying on the bed">
+            <img src="assets/images/dog13.jpg" alt="The dog is lying on the couch">
+            <img src="assets/images/dog2.jpg" alt="Photo of the dog during the walk">
+            <img src="assets/images/dog11.jpg" alt="The dog is lying on the grass">
+            <img src="assets/images/dog10.jpg" alt="The man hugs the dog">
+            <img src="assets/images/dog16.jpg" alt="Four dogs are sitting on the sidewalk">
+            <img src="assets/images/dog14.jpg" alt="Happy dog sits on the ground">
+            <img src="assets/images/dog7.jpg" alt="Happy dog sits on the ground">
+            <img src="assets/images/dog1.jpg" alt="Happy dog sits on the meadow">
         </div>
         <video controls>
             <source src="assets/images/dog12.mp4" type="video/mp4">
         </video>
-        <div>
-            <img src="assets/images/gallery-img.jpg" alt="">
+        <div class="gallery-img">
+            <img src="assets/images/gallery-img.jpg" alt="A drawn dog">
         </div>
     </section>
     <!-- Footer -->
@@ -223,6 +237,28 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/111b3a0b11.js" crossorigin="anonymous"></script>
+    <script>
+        // Hide menu on scrolling
+        let prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            let currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("header").style.top = "0";
+            } else {
+                document.getElementById("header").style.top = "-100px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
+        // Open and close sidebar for mobile devices
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "95%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+        }
+    </script>
 </body>
 
 </html>
