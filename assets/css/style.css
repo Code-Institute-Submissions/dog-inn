@@ -913,6 +913,12 @@ label {
         height: 130px;
     }
 
+    #hero-img {
+        left: 0;
+        background: url(../images/hero-mobile.jpg) no-repeat center center/cover;
+        height: 40vh;
+    }
+
     #hamburger-icon {
         display: flex;
         justify-content: center;
@@ -986,10 +992,6 @@ label {
     #prices-btn a {
         font-size: 14px;
         padding: 15px;
-    }
-
-    #hero-img {
-        height: 40vh;
     }
 
     #hero-text h1 {
