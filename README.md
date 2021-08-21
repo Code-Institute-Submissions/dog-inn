@@ -81,8 +81,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fizabela88.github.io%2Fdog-inn%2F)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fizabela88.github.io%2Fdog-inn%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pl-PL)
--   ![Accessibility for desktops](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/desktop-lighthouse-report.png)
--   ![Accessibility for mobile devices](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/mobile-lighthouse-report.png)
+-   I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools  
+-   Accessibility for desktops
+![Accessibility for desktops](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/desktop-lighthouse-report.png)
+-   Accessibility for mobile devices
+![Accessibility for mobile devices](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/mobile-lighthouse-report.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
