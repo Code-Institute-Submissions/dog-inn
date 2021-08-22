@@ -37,7 +37,9 @@ The site will be targeted mainly toward dog owners who have no one to entrust to
     -   #### Typography
         -   The Poppins and Roboto fonts are used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Both fonts are used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
-        -   Imagery is important. Hero image is designed to catch the user's attention. It also has a modern, energetic aesthetic.
+        -   Hero image is designed to catch the user's attention. It also has a modern, energetic aesthetic.
+        -   There is also a photo of the hotel owner on the website, which arouses positive emotions in the users.
+        -   The gallery contains a lot of photos of dogs that have used the services of the hotel. The dogs look very happy, which can also convince users to use the company's services.
 
 *   ### Wireframes
 
@@ -98,14 +100,65 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         3. The description on the right side the hero section provides key information about the hotel and what sets it apart from other similar hotels.
         3. The user has two options, click the buttons or scroll down, both of which will lead to the same place, to learn more about the company.
 
+![Hero](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/hero.png)
+
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
         1. The navigation links are in right corner: Home, About, Services, Prices, Gallery, Contact which link to the sections of the same page.
         2. The navigation clearly tells the user the name of the hotel and makes easy to find all information on website.
+
+![Navbar](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/navbar.png)
+
 
     3. As a First Time Visitor, I want to look for services to understand what the company offers and prices to find out if I can afford the services offered. I also want to locate their social media links to find opinions about the company and check how trusted and known they are.
         1. In the Services section are all informations about the services offered by the hotel.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
         3. The Prices section is to inform the user about the prices of the offered services.
 
+![Services](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/services.png)
 
+![Prices](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/prices.png)
+
+-   #### Returning Visitor Goals
+
+     1. As a Returning Visitor, I want to find information about company terms and conditons.
+
+        1. Informations are easy to find in Prices section.
+        2. Below the descriptions is located button which should be pressed to download the hotel regulations.
+        3. After press the button, the document is automatically downloaded in the pdf format.
+
+    2. As a Returning Visitor, I want to find the best way to get in contact with the company.
+
+        1. The navigation bar clearly highlights the "Contact" section.
+        2. The footer contains the necessary contact informations, telephone number and e-mail address. 
+        3. The footer contains links to the organisations Facebook, Twitter and Instagram page.
+        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+
+    3. As a Returning Visitor, I want to find company opening times.
+
+        1. The footer contains information about hotel opening hours.
+
+-   #### Frequent User Goals
+
+    1. As a Frequent User, I want to check whether the company's opening hours have changed.
+
+        1. The user can check the current opening hours of the hotel on Facebook or on the webpage in footer.
+
+    2. As a Frequent User, I want to check if the contact details have changed.
+
+        1. The user would already be comfortable with the website layout and can easily find informations in footer.
+
+    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
+        1. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to enter full name and email address.
+        2. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+        3. The users can join to subscribers list to get the latest news and special offers.
+
+![Footer](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/footer.png)
+
+### Further Testing
+
+-   The Website was tested on Google Chrome, Firefox, Opera and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Huavei P20 Mate and Huavei P30.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
