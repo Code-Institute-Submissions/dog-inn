@@ -100,14 +100,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         3. The description on the right side the hero section provides key information about the hotel and what sets it apart from other similar hotels.
         3. The user has two options, click the buttons or scroll down, both of which will lead to the same place, to learn more about the company.
 
-![Hero](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/hero.png)
+- ![Hero](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/hero.png)
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
         1. The navigation links are in right corner: Home, About, Services, Prices, Gallery, Contact which link to the sections of the same page.
         2. The navigation clearly tells the user the name of the hotel and makes easy to find all information on website.
 
-![Navbar](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/navbar.png)
+- ![Navbar](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/navbar.png)
 
 
     3. As a First Time Visitor, I want to look for services to understand what the company offers and prices to find out if I can afford the services offered. I also want to locate their social media links to find opinions about the company and check how trusted and known they are.
