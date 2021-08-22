@@ -93,7 +93,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the website and find out more informations about the company.
+    - As a First Time Visitor, I want to easily understand the main purpose of the website and find out more informations about the company.
 
         - Featured at the top of the page, the navigation bar shows the logo in the left corner: DOG INN Hotel For Dogs that links to the top of the page.
         - The hero section includes an eye-catching image of the puppy on the left side and buissness description on the right side.
@@ -102,7 +102,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - ![Hero](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/hero.png)
 
-    1. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    - As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
         - The navigation links are in right corner: Home, About, Services, Prices, Gallery, Contact which link to the sections of the same page.
         - The navigation clearly tells the user the name of the hotel and makes easy to find all information on website.
@@ -110,7 +110,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - ![Navbar](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/navbar.png)
 
 
-    1. As a First Time Visitor, I want to look for services to understand what the company offers and prices to find out if I can afford the services offered. I also want to locate their social media links to find opinions about the company and check how trusted and known they are.
+    - As a First Time Visitor, I want to look for services to understand what the company offers and prices to find out if I can afford the services offered. I also want to locate their social media links to find opinions about the company and check how trusted and known they are.
         - In the Services section are all informations about the services offered by the hotel.
         - The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
         - The Prices section is to inform the user about the prices of the offered services.
@@ -121,34 +121,34 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### Returning Visitor Goals
 
-     1. As a Returning Visitor, I want to find information about company terms and conditons.
+     - As a Returning Visitor, I want to find information about company terms and conditons.
 
         - Informations are easy to find in Prices section.
         - Below the descriptions is located button which should be pressed to download the hotel regulations.
         - After press the button, the document is automatically downloaded in the pdf format.
 
-    1. As a Returning Visitor, I want to find the best way to get in contact with the company.
+    - As a Returning Visitor, I want to find the best way to get in contact with the company.
 
         - The navigation bar clearly highlights the "Contact" section.
         - The footer contains the necessary contact informations, telephone number and e-mail address. 
         - The footer contains links to the organisations Facebook, Twitter and Instagram page.
         - Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
-    1. As a Returning Visitor, I want to find company opening times.
+    - As a Returning Visitor, I want to find company opening times.
 
         - The footer contains information about hotel opening hours.
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check whether the company's opening hours have changed.
+    - As a Frequent User, I want to check whether the company's opening hours have changed.
 
         - The user can check the current opening hours of the hotel on Facebook or on the webpage in footer.
 
-    1. As a Frequent User, I want to check if the contact details have changed.
+    - As a Frequent User, I want to check if the contact details have changed.
 
         - The user would already be comfortable with the website layout and can easily find informations in footer.
 
-    1. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+    - As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
         - To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to enter full name and email address.
         - There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
