@@ -43,9 +43,9 @@ The site will be targeted mainly toward dog owners who have no one to entrust to
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://xd.adobe.com/view/56c4dbb6-b733-4862-8df1-abe94e6a098e-0397/specs/)
+    -   Home Page Wireframe - [View](https://github.com/Izabela88/dog-inn/blob/feature-readme/assets/images/readme-images/xd-desktop.png)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Mobile Wireframe - [View](https://github.com/Izabela88/dog-inn/blob/feature-readme/assets/images/readme-images/xd-mobile.jpg)
 
 ## Features
 
@@ -100,14 +100,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         - The description on the right side the hero section provides key information about the hotel and what sets it apart from other similar hotels.
         - The user has two options, click the buttons or scroll down, both of which will lead to the same place, to learn more about the company.
 
-- ![Hero](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/hero.png)
+![Hero](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/hero.png)
 
     - As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
         - The navigation links are in right corner: Home, About, Services, Prices, Gallery, Contact which link to the sections of the same page.
         - The navigation clearly tells the user the name of the hotel and makes easy to find all information on website.
 
-- ![Navbar](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/navbar.png)
+![Navbar](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/navbar.png)
 
     - As a First Time Visitor, I want to look for services to understand what the company offers and prices to find out if I can afford the services offered. I also want to locate their social media links to find opinions about the company and check how trusted and known they are.
 
