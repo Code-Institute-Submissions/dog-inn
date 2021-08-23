@@ -93,62 +93,62 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    - As a First Time Visitor, I want to easily understand the main purpose of the website and find out more informations about the company.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the website and find out more informations about the company.
 
         - Featured at the top of the page, the navigation bar shows the logo in the left corner: DOG INN Hotel For Dogs that links to the top of the page.
         - The hero section includes an eye-catching image of the puppy on the left side and buissness description on the right side.
         - The description on the right side the hero section provides key information about the hotel and what sets it apart from other similar hotels.
         - The user has two options, click the buttons or scroll down, both of which will lead to the same place, to learn more about the company.
 
-  ![Hero](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/hero.png)
+ ![Hero](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/hero.png)
 
-    - As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        - The navigation links are in right corner: Home, About, Services, Prices, Gallery, Contact which link to the sections of the same page.
-        - The navigation clearly tells the user the name of the hotel and makes easy to find all information on website.
+    - The navigation links are in right corner: Home, About, Services, Prices, Gallery, Contact which link to the sections of the same page.
+    - The navigation clearly tells the user the name of the hotel and makes easy to find all information on website.
 
-  ![Navbar](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/navbar.png)
+ ![Navbar](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/navbar.png)
 
-    - As a First Time Visitor, I want to look for services to understand what the company offers and prices to find out if I can afford the services offered. I also want to locate their social media links to find opinions about the company and check how trusted and known they are.
+3. As a First Time Visitor, I want to look for services to understand what the company offers and prices to find out if I can afford the services offered. I also want to locate their social media links to find opinions about the company and check how trusted and known they are.
 
-        - In the Services section are all informations about the services offered by the hotel.
-        - The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        - The Prices section is to inform the user about the prices of the offered services.
+    - In the Services section are all informations about the services offered by the hotel.
+    - The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+    - The Prices section is to inform the user about the prices of the offered services.
 
-  ![Services](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/services.png)
+![Services](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/services.png)
 
-  ![Prices](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/prices.png)
+![Prices](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/prices.png)
 
 -   #### Returning Visitor Goals
 
-     - As a Returning Visitor, I want to find information about company terms and conditons.
+     1. As a Returning Visitor, I want to find information about company terms and conditons.
 
         - Informations are easy to find in Prices section.
         - Below the descriptions is located button which should be pressed to download the hotel regulations.
         - After press the button, the document is automatically downloaded in the pdf format.
 
-    - As a Returning Visitor, I want to find the best way to get in contact with the company.
+    2. As a Returning Visitor, I want to find the best way to get in contact with the company.
 
         - The navigation bar clearly highlights the "Contact" section.
         - The footer contains the necessary contact informations, telephone number and e-mail address. 
         - The footer contains links to the organisations Facebook, Twitter and Instagram page.
         - Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
-    - As a Returning Visitor, I want to find company opening times.
+    3. As a Returning Visitor, I want to find company opening times.
 
         - The footer contains information about hotel opening hours.
 
 -   #### Frequent User Goals
 
-    - As a Frequent User, I want to check whether the company's opening hours have changed.
+    1. As a Frequent User, I want to check whether the company's opening hours have changed.
 
         - The user can check the current opening hours of the hotel on Facebook or on the webpage in footer.
 
-    - As a Frequent User, I want to check if the contact details have changed.
+    2. As a Frequent User, I want to check if the contact details have changed.
 
         - The user would already be comfortable with the website layout and can easily find informations in footer.
 
-    - As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
         - To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to enter full name and email address.
         - There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
