@@ -43,7 +43,7 @@ The site will be targeted mainly toward dog owners who have no one to entrust to
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Wireframe - [View](https://xd.adobe.com/view/56c4dbb6-b733-4862-8df1-abe94e6a098e-0397/specs/)
 
     -   Mobile Wireframe - [View](https://github.com/)
 
@@ -109,8 +109,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - ![Navbar](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/navbar.png)
 
-
     - As a First Time Visitor, I want to look for services to understand what the company offers and prices to find out if I can afford the services offered. I also want to locate their social media links to find opinions about the company and check how trusted and known they are.
+
         - In the Services section are all informations about the services offered by the hotel.
         - The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
         - The Prices section is to inform the user about the prices of the offered services.
