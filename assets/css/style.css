@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 
 * {
@@ -10,6 +11,7 @@ html {
     box-sizing: border-box;
     border: none;
 }
+
 
 /* utility */
 h1,
@@ -69,9 +71,8 @@ a {
 
 .section {
     width: 100%;
-    overflow: hidden;
     position: relative;
-    overflow-y: scroll;
+    overflow: hidden;
 }
 
 /* logo */
@@ -258,6 +259,7 @@ a {
     margin-top: 5%;
     position: relative;
     z-index: 900;
+    
 }
 
 #services-section h1 {
@@ -609,7 +611,7 @@ label {
 }
 
 /* media queries */
-@media screen and (max-width:1300px) {
+@media screen and (max-width: 1400px) {
     #hero-text {
         width: 400px;
     }
@@ -622,6 +624,7 @@ label {
         height: 130px;
         width: 130px;
         margin: 0 auto;
+        padding: 10px;
     }
 
     #about-container {
@@ -630,7 +633,7 @@ label {
 
     #about-img {
         width: 45vw;
-        height: 350px;
+        height: 340px;
     }
 
     #about-text h1 {
@@ -655,7 +658,7 @@ label {
     }
 
     #services-container {
-        width: 90vw;
+        width: 80vw;
         grid-gap: 10px;
     }
 
@@ -670,7 +673,7 @@ label {
 
     #prices-container {
         grid-gap: 10px;
-        width: 90vw;
+        width: 80vw;
     }
 
     .prices-box p {
@@ -749,7 +752,7 @@ label {
 }
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1200px) {
     #header {
         justify-content: center;
     }
@@ -805,7 +808,7 @@ label {
     }
 
     #about-img {
-        width: 52vw;
+        width: 480px;
     }
 
     #services-container {
@@ -886,7 +889,6 @@ label {
     }
 
 }
-
 
 @media screen and (max-width: 800px) {
     #about-container {
