@@ -1,4 +1,4 @@
-s<h1 align="center">Dog Inn</h1>
+<h1 align="center">Dog Inn</h1>
 
 [View the live project here](https://izabela88.github.io/dog-inn/)
 
