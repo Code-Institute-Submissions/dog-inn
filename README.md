@@ -173,8 +173,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Solved Bugs
 
 -   After deployed my project to GitHub Pages I have notice that on the right hand side is double scrollbar. 
--   I discovered that in css file I set overflow-y: scroll to each section.
--   I removed it from section class and add to <html> element, which solved the problem.
+-   I discovered that in css file I set 'overflow-y: scroll' to each section.
+-   I removed it from section class and add to 'html' element, which solved the problem.
 
 ## Deployment
 
