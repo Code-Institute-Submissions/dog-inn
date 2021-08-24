@@ -43,15 +43,15 @@ The site will be targeted mainly toward dog owners who have no one to entrust to
 
 -   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/Izabela88/dog-inn/blob/feature-readme/assets/images/readme-images/xd-desktop.png)
+    -   Home Page Wireframe (made in Adobe XD) - [View](https://github.com/Izabela88/dog-inn/blob/feature-readme/assets/images/readme-images/xd-desktop.png)
 
-    -   Mobile Wireframe - [View](https://github.com/Izabela88/dog-inn/blob/feature-readme/assets/images/readme-images/xd-mobile.jpg)
+    -   Mobile Wireframe (made in Adobe XD) - [View](https://github.com/Izabela88/dog-inn/blob/feature-readme/assets/images/readme-images/xd-mobile.jpg)
 
 ## Features
 
 -   Responsive on all device sizes
 
-<h2 align="center"><img src="https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/responsive.png"></h2>
+    ![Responsive](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/responsive.png)
 
 -   Interactive elements
 
@@ -84,11 +84,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fizabela88.github.io%2Fdog-inn%2F)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fizabela88.github.io%2Fdog-inn%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pl-PL)
--   I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools  
+
+-   I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
+
 -   Accessibility for desktops
-![Accessibility for desktops](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/desktop-lighthouse-report.png)
+
+    ![Accessibility for desktops](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/desktop-lighthouse-report.png)
+
 -   Accessibility for mobile devices
-![Accessibility for mobile devices](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/mobile-lighthouse-report.png)
+
+    ![Accessibility for mobile devices](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/mobile-lighthouse-report.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -101,15 +106,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         - The description on the right side the hero section provides key information about the hotel and what sets it apart from other similar hotels.
         - The user has two options, click the buttons or scroll down, both of which will lead to the same place, to learn more about the company.
 
-        <h2 align="center"><img src="https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/hero.png"></h2>
+        ![Hero](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/hero.png)
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
         - The navigation links are in right corner: Home, About, Services, Prices, Gallery, Contact which link to the sections of the same page.
         - The navigation clearly tells the user the name of the hotel and makes easy to find all information on website.
 
-        <h2 align="center"><img src="https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/navbar.png"></h2>
-
+        ![Navbar](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/navbar.png)
 
     3. As a First Time Visitor, I want to look for services to understand what the company offers and prices to find out if I can afford the services offered. I also want to locate their social media links to find opinions about the company and check how trusted and known they are.
 
@@ -117,9 +121,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         - The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
         - The Prices section is to inform the user about the prices of the offered services.
 
-        <h2 align="center"><img src="https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/services.png"></h2>
+        ![Services](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/services.png)
 
-        <h2 align="center"><img src="https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/prices.png"></h2>
+        ![Prices](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/prices.png)
 
 
 -   #### Returning Visitor Goals
@@ -157,14 +161,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         - There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
         - The users can join to subscribers list to get the latest news and special offers.
 
-![Footer](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/footer.png)
+        ![Footer](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/footer.png)
 
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Firefox, Opera and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, Huavei P20 Mate and Huavei P30.
+-   The website was viewed on a variety of devices such as Desktop, Laptop (Macbook Pro 16 inch), Mobiles( Huawei P20 Mate and Huawei P30).
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Solved Bugs
+
+-   After deployed my project to GitHub Pages I have notice that on the right hand side is double scrollbar. 
+-   I discovered that in css file I set overflow-y: scroll to each section.
+-   I removed it from section class and add to <html> element, which solved the problem.
 
 ## Deployment
 
