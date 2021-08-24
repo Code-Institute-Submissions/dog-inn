@@ -158,7 +158,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
         - To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to enter full name and email address.
-        - There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+        - There is a "Submit" button under the input fields which is located close to the fields and can easily be distinguished.
         - The users can join to subscribers list to get the latest news and special offers.
 
         ![Footer](https://github.com/Izabela88/dog-inn/blob/main/assets/images/readme-images/footer.png)
