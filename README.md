@@ -1,4 +1,4 @@
-<h1 align="center">Dog Inn</h1>
+s<h1 align="center">Dog Inn</h1>
 
 [View the live project here](https://izabela88.github.io/dog-inn/)
 
@@ -186,9 +186,8 @@ The project was deployed to GitHub Pages using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Izabela88/dog-inn)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
+4. Under "Source", click the dropdown called "None" and select "Main Branch".
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://izabela88.github.io/dog-inn/) in the "GitHub Pages" section.
 
@@ -232,7 +231,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [BoxShadow](https://getcssscan.com/css-box-shadow-examples): For box shadows in css file.
 
--   [w3school](https://www.w3schools.com/) : For JavaScript code. Tutorial Found [Here](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp) and [Here](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp)
+-   [W3School](https://www.w3schools.com/) : For JavaScript code. Tutorial Found [Here](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp) and [Here](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp)
 
 ### Content
 
